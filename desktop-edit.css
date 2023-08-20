@@ -391,7 +391,6 @@ cursor:pointer;
     color:var(--white);
     background-color: var(--btn-red);
     transition: all 0.5s ease-in-out;
-
 }
 
 .desktop-save{
