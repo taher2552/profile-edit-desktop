@@ -384,6 +384,14 @@ padding:0.4rem 1.5rem;
 background-color: var(--white);
 color:var(--btn-red);
 margin-right: 1rem;
+cursor:pointer;
+}
+
+.desktop-cancel:hover, .desktop-add-btn:hover{
+    color:var(--white);
+    background-color: var(--btn-red);
+    transition: all 0.5s ease-in-out;
+
 }
 
 .desktop-save{
@@ -392,6 +400,14 @@ margin-right: 1rem;
      padding:0.4rem 1.5rem;
      width:6rem;
      background-color: var(--save-btn);
+     cursor: pointer;
+}
+
+.desktop-save:hover{
+    color:var(--save-btn);
+    border:1px solid var(--save-btn);
+    background-color: var(--white);
+    transition: all 0.5s ease-in-out;
 }
 /* button section ends */
 
